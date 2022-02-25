@@ -41,6 +41,25 @@ h3{
     margin-bottom: 0;
     margin-left: auto;
 }
+.boton{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+
+}
+
+@media (min-width:480px) {
+.boton{}
+    
+}
 
 .nav-bg{
     background-color: var(--secundario);
@@ -112,4 +131,9 @@ justify-content: center;
 .contenido-hero h2,
 .contenido-hero p{
     color: var(--blanco);
+}
+
+.ubicacion{
+    display: flex;
+    align-items: flex-end ;
 }
