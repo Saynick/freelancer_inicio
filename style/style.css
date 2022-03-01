@@ -151,11 +151,7 @@ span{
 @media (min-with: 480px){ /*web responsive design*/
 
 }
-.servicios{
-scroll-snap-align: center;
-scroll-snap-stop: always;
 
-}
 
 /*Contenido de la clase Hero*/
 .hero{
